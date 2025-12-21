@@ -1,6 +1,26 @@
-# Ignore notebook checkpoints
+# Jupyter
 .ipynb_checkpoints/
+*.ipynb_checkpoints
 
-# Ignore Jupyter metadata caches
+# Python
 __pycache__/
 *.pyc
+*.pyo
+
+# Virtual environments
+.venv/
+env/
+venv/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Data
+data/
+*.csv
+*.parquet
+*.pkl
+
+# Logs
+*.log
